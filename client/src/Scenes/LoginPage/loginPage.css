@@ -1,0 +1,49 @@
+.login-card {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    background: #1e036d;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.login-card p,
+.login-card label,
+.login-card input,
+.login-btn {
+    margin-bottom: 20px;
+}
+
+.login-card label,
+.login-card input,
+.login-btn {
+    width: 100%;
+}
+
+.login-card input,
+.login-btn {
+    padding: 11px;
+    border-radius: 10px;
+}
+
+.login-card input {
+    background: #1e036d;
+    color: #fff;
+    outline: none;
+    border: 1px solid #393839;
+}
+
+.login-btn {
+    background: #ffc002;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-card a {
+    color: #ffc002;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}

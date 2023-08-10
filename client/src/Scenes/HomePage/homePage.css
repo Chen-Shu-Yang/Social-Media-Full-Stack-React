@@ -1,0 +1,342 @@
+.home-container {
+    margin-top: 35px;
+}
+
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+}
+
+.cols-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.cols-3.left-col,
+.cols-3.right-col {
+    flex-basis: 60%;
+}
+
+.profile-section,
+.profile-info,
+.location, .job,
+.profile-views, .socials,
+.social-names,
+.sponsored-title-sec,
+.ad-owner-dtls,
+.friend-card-title,
+.friend-list-item,
+.friend-dtl, .post-des-input,
+.create-posts-btns, .btn-5,
+.poster-dtl, .poster-profile,
+.post-eng, .post-stats, .dropzone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-section img,
+.friend-list-item img,
+.create-post img,
+.poster-profile img {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.edit-social-icon,
+.del-friend-icon,
+.post-icons,
+.profile-icons {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* Left Card */
+.profile-section,
+.user-dtl,
+.profile-stats {
+    border-bottom: 1px solid #a6a6a6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.profile-section img {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-info {
+    justify-content: flex-start;
+}
+
+.profile-info h4 {
+    margin-bottom: 3px;
+}
+
+.content-cards span {
+    font-size: .8rem;
+    color: #a6a6a6;
+}
+
+.profile-icons {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.user-dtl div,
+.profile-views {
+    margin-bottom: 15px;
+}
+
+.user-dtl div:last-child,
+.profile-views:last-child {
+    margin: 0;
+}
+
+.location, .job {
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.socials {
+    margin-top: 15px;
+}
+
+.social-icons {
+    font-size: 1.6rem;
+    color: #a6a6a6;
+}
+
+.stats-num, .twitter-bold, .linkedin-bold {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.twitter-bold,
+.linkedin-bold {
+    font-size: .9rem;
+    margin-bottom: 5px;
+}
+
+.social-names {
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+/* Right Cards */
+
+/* Sponsored Card */
+.sponsored-visuals {
+    width: 100%;
+    margin: 12px 0;
+    border-radius: 10px;
+}
+
+.ad-owner-dtls {
+    margin-bottom: 12px;
+}
+
+.ad-owner-dtls span,
+.ad-des {
+    font-size: .7rem !important;
+}
+
+.ad-owner-dtls span {
+    transition: all .1s ease;
+}
+
+.ad-owner-dtls span:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* Friend List Card */
+.friend-card-title {
+    margin-bottom: 5px;
+}
+
+.friend-card-title a {
+    font-size: .8rem;
+    color: #1d006d;
+    transition: all .2s ease;
+}
+
+.friend-card-title a:hover {
+    font-size: .8rem;
+    color: #ffc102;
+    text-decoration: underline;
+}
+
+.friend-list-item {
+    margin-top: 12px;
+}
+
+.friend-list-item img {
+    width: 45px;
+    height: 45px;
+}
+
+.friend-dtl {
+    justify-content: flex-start;
+}
+
+.friend-dtl h5 {
+    margin-bottom: 3px;
+}
+
+
+
+
+/* Center Column */
+
+/* Create Post Card */
+.content-cards.create-post-card {
+    padding: 0;
+}
+
+.post-des-input {
+    padding: 15px 20px;
+}
+
+/* dropzone container */
+.container {
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.dropzone {
+    position: relative;
+    border: 1px #a6a6a6;
+    border-radius: 10px;
+    border-style: dashed;
+    margin: 0 20px 15px 20px;
+    padding: 0 20px;
+    height: 50px;
+    justify-content: start;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.dropzone.dropzone-content {
+    justify-content: space-between;
+}
+
+.dropzone.dropzone-content span {
+    color: #000;
+}
+
+.create-posts-btns {
+    padding: 8px 20px;
+    border-top: 1px solid #a6a6a6;
+}
+
+.post-des-input {
+    justify-content: start;
+}
+
+.create-post img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+}
+
+.ssInput {
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    padding: 0 20px;
+    border: none;
+    background: #f4f3f4;
+    outline: none;
+}
+
+.btn-5 {
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.create-post-icons {
+    color: #a6a6a6;
+}
+
+.btn-5 button {
+    padding: 8px 18px;
+    color: #a6a6a6;
+    font-size: .8rem;
+    border-radius: 20px;
+    border: none;
+    background: #ffc102;
+    cursor: pointer;
+}
+
+/* Post Display Card */
+.poster-profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.poster-profile {
+    justify-content: flex-start;
+}
+
+.poster-profile h5 {
+    margin-bottom: 3px;
+}
+
+.post-img {
+    width: 100%;
+    max-height: 650px;
+    object-fit: contain;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #000;
+}
+
+.post-des {
+    margin: 15px 0;
+    color: #a6a6a6;
+    font-size: .8rem;
+}
+
+.post-eng {
+    margin-top: 12px;
+}
+
+.post-stats {
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.post-like, .post-comment {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.post-icons {
+    transition: color .2s ease;
+}
+
+.post-icons:hover {
+    color: #1d006d;
+}
+
+.post-icons.liked-icon {
+    color: red;
+}

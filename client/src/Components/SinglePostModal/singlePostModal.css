@@ -1,0 +1,96 @@
+.modal-bg {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(200, 200, 200, .7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    top: 0;
+}
+
+.modal-container {
+    position: fixed;
+    background: #fff;
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 4;
+    top: 7%;
+}
+
+.modal-title,
+.modal-body,
+.modal-footer {
+    padding: 20px;
+    border-bottom: 1px solid #a6a6a6;
+    width: 100%;
+}
+
+.modal-title {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.modal-title h1 {
+    justify-self: center;
+}
+
+.modal-title button {
+    font-size: 1.5rem;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.modal-title button:hover {
+    background: #f4f3f4;
+}
+
+.modal-body {
+    flex-basis: 100%;
+    overflow-y: scroll;
+}
+
+.modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+.poster-dtl span {
+    font-size: .8rem;
+    color: #a6a6a6;
+}
+
+.post-media {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    background: #000;
+    border-radius: 10px;
+}
+
+@media (width > 1300px) {
+    .modal-container {
+        height: 800px;
+    }
+
+    .post-media {
+        max-height: 700px;
+    }
+}
